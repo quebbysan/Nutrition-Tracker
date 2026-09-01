@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 from datetime import date
 
-st.set_page_config(page_title="Nutrition Tracker", page_icon="🥗", layout="centered")
+st.set_page_config(page_title="Nutrition Tracker", layout="centered")
 
-st.title("🥗 Nutrition Tracker")
+st.title("Nutrition Tracker")
 st.write("Track your daily calories and macros")
 
 # Initialize session state for storing meals
